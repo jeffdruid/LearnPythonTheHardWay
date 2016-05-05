@@ -7,7 +7,7 @@ def cc(times, add):
     for i in range(times):
         print "At the top i is %d" % num
         numbers.append(num)
-        num = num + add
+        num += add
         print "Numbers now: ", numbers
         print "At the bottom i is %d" % num
 
